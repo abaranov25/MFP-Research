@@ -186,7 +186,7 @@ def plot_pred_v_acc(X_test, y_test, grid, save = True):
     plt.title('Predicted v Accepted Log of Lambda_0')
 
     if save:
-        plt.savefig("predictions_RF_reg.png")
+        plt.savefig("plots/predictions_RF_reg.png")
         plt.close()
     else:
         plt.show()
@@ -236,7 +236,7 @@ def plot_comparison_at_500K(grid, test_set_compounds):
     plt.ylabel("Characteristic MFP (\u03BCm)")
     plt.xticks(np.linspace(0,1,11)) 
     plt.yticks(np.linspace(0.1e-6, 1e-6, 10))
-    plt.savefig("mfp_versus_concentration_gbm.png")
+    plt.savefig("plots/mfp_versus_concentration_gbm.png")
 
 
 
