@@ -1,0 +1,1 @@
+This folder contains files that are not necessary in running the algorithm, but I have kept them in case code within them becomes useful in the future (If I find a way to include phonon data in the model)
